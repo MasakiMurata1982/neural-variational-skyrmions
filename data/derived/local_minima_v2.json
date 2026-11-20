@@ -1,0 +1,296 @@
+[
+ {
+  "tag": "free_B2_mlp_w48_d4_ep20000_s5_gelu",
+  "B": 2,
+  "E": 2.4024181625946928,
+  "excess_pct": 1.8750811040069835,
+  "virial": 0.9754301523238876,
+  "inertia_ratios": [
+   0.7048103282867076,
+   0.909709446171172,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B3_mlp_w48_d4_ep20000_s12_gelu",
+  "B": 3,
+  "E": 3.479079603146192,
+  "excess_pct": 1.1772117474027812,
+  "virial": 0.9988413513731099,
+  "inertia_ratios": [
+   0.8597706929310789,
+   0.981439079845283,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B3_mlp_w48_d4_ep20000_s9_gelu",
+  "B": 3,
+  "E": 3.5147988475441014,
+  "excess_pct": 2.2159846316553633,
+  "virial": 0.9986087815789778,
+  "inertia_ratios": [
+   0.7926353932493879,
+   0.8746470724489115,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B3_mlp_w64_d4_ep20000_s12_gelu",
+  "B": 3,
+  "E": 3.5157488430076147,
+  "excess_pct": 2.243612022556116,
+  "virial": 1.001455001802231,
+  "inertia_ratios": [
+   0.552134025973847,
+   0.9752856805874458,
+   1.0
+  ],
+  "arch": "gelu64",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B3_mlp_w64_d4_ep20000_s6_gelu",
+  "B": 3,
+  "E": 3.530497529300609,
+  "excess_pct": 2.6725274617754033,
+  "virial": 1.009348867450108,
+  "inertia_ratios": [
+   0.8576285105945665,
+   0.9047168106239465,
+   1.0
+  ],
+  "arch": "gelu64",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B3_effkan_w21_d4_ep20000_s12_g5",
+  "B": 3,
+  "E": 3.534719800103894,
+  "excess_pct": 2.7953178649419557,
+  "virial": 0.9995950670069539,
+  "inertia_ratios": [
+   0.4980466645067298,
+   0.9570611540506971,
+   1.0
+  ],
+  "arch": "effkan21",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform_kan21"
+ },
+ {
+  "tag": "free_B3_mlp_w48_d4_ep20000_s13_gelu",
+  "B": 3,
+  "E": 3.537187896127014,
+  "excess_pct": 2.8670940535977922,
+  "virial": 0.9956806139176926,
+  "inertia_ratios": [
+   0.6605629247812314,
+   0.9292236459372121,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B3_mlp_w64_d4_ep20000_s18_gelu",
+  "B": 3,
+  "E": 3.6287260269133252,
+  "excess_pct": 5.529169630469526,
+  "virial": 0.9800274621649628,
+  "inertia_ratios": [
+   0.5555843025821784,
+   0.8569344216139496,
+   1.0
+  ],
+  "arch": "gelu64",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_mlp_w48_d4_ep20000_s11_gelu",
+  "B": 4,
+  "E": 4.534591229980233,
+  "excess_pct": 1.2095176765519264,
+  "virial": 1.0026957370170486,
+  "inertia_ratios": [
+   0.9132027358288229,
+   0.9449787647588568,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_effkan_w21_d4_ep20000_s3_g5",
+  "B": 4,
+  "E": 4.547497245991639,
+  "excess_pct": 1.4975726718962372,
+  "virial": 0.9957851390352396,
+  "inertia_ratios": [
+   0.7708506579604704,
+   0.9282837410274295,
+   1.0
+  ],
+  "arch": "effkan21",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform_kan21"
+ },
+ {
+  "tag": "free_B4_mlp_w48_d4_ep20000_s10_gelu",
+  "B": 4,
+  "E": 4.558035344264015,
+  "excess_pct": 1.7327770793682375,
+  "virial": 0.9921524491606596,
+  "inertia_ratios": [
+   0.820187207722475,
+   0.968754858483213,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_effkan_w21_d4_ep20000_s2_g5",
+  "B": 4,
+  "E": 4.634370501413303,
+  "excess_pct": 3.4365347159473045,
+  "virial": 0.9942509981467801,
+  "inertia_ratios": [
+   0.5819251356653741,
+   0.9539391524277029,
+   1.0
+  ],
+  "arch": "effkan21",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform_kan21"
+ },
+ {
+  "tag": "free_B4_mlp_w64_d4_ep20000_s6_gelu",
+  "B": 4,
+  "E": 4.677815446647363,
+  "excess_pct": 4.406201380398246,
+  "virial": 1.0059465936010341,
+  "inertia_ratios": [
+   0.42837815997889267,
+   0.9254134344959025,
+   1.0
+  ],
+  "arch": "gelu64",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_mlp_w48_d4_ep20000_s15_gelu",
+  "B": 4,
+  "E": 4.6882120222766055,
+  "excess_pct": 4.6382470823275845,
+  "virial": 1.0005994018824234,
+  "inertia_ratios": [
+   0.5188153109703336,
+   0.9412846169923182,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_mlp_w64_d4_ep20000_s4_gelu",
+  "B": 4,
+  "E": 4.710290267049118,
+  "excess_pct": 5.131021048324193,
+  "virial": 1.007785006929265,
+  "inertia_ratios": [
+   0.6704862645917942,
+   0.8894271972973309,
+   1.0
+  ],
+  "arch": "gelu64",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_effkan_w16_d4_ep20000_s15_g5",
+  "B": 4,
+  "E": 4.776210731411741,
+  "excess_pct": 6.602328618242577,
+  "virial": 0.9917273314733963,
+  "inertia_ratios": [
+   0.22771913780195951,
+   0.963912974972866,
+   1.0
+  ],
+  "arch": "effkan16",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_mlp_w64_d4_ep20000_s18_gelu",
+  "B": 4,
+  "E": 4.872211992447875,
+  "excess_pct": 8.745022597265303,
+  "virial": 0.998548763394778,
+  "inertia_ratios": [
+   0.6274339942596304,
+   0.9432284746114682,
+   1.0
+  ],
+  "arch": "gelu64",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_mlp_w48_d4_ep20000_s1_gelu",
+  "B": 4,
+  "E": 4.901356585651062,
+  "excess_pct": 9.395513473151086,
+  "virial": 0.9837119719439229,
+  "inertia_ratios": [
+   0.19721819359220066,
+   0.988353344710033,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_mlp_w48_d4_ep20000_s9_gelu",
+  "B": 4,
+  "E": 4.912776879856894,
+  "excess_pct": 9.650407996091724,
+  "virial": 0.9779565800010456,
+  "inertia_ratios": [
+   0.46659623108139914,
+   0.907641567416518,
+   1.0
+  ],
+  "arch": "gelu48",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_mlp_w64_d4_ep20000_s0_gelu",
+  "B": 4,
+  "E": 4.917995887242707,
+  "excess_pct": 9.766893296194686,
+  "virial": 0.9899428407140862,
+  "inertia_ratios": [
+   0.4348776258210001,
+   0.9285181709830159,
+   1.0
+  ],
+  "arch": "gelu64",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ },
+ {
+  "tag": "free_B4_effkan_w16_d4_ep20000_s9_g5",
+  "B": 4,
+  "E": 4.94031765133361,
+  "excess_pct": 10.265102475975564,
+  "virial": 0.9938511399868941,
+  "inertia_ratios": [
+   0.3739395990262924,
+   0.9759792798582947,
+   1.0
+  ],
+  "arch": "effkan16",
+  "runs_dir": "data/run_records/2026-08-31_free_uniform/runs_uniform"
+ }
+]

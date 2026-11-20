@@ -1,0 +1,53 @@
+{
+ "tag": "free_B2_effkan_w16_d4_ep5000_s0_g5",
+ "kind": "effkan",
+ "width": 16,
+ "depth": 4,
+ "seed": 0,
+ "track": "free",
+ "B_target": 2,
+ "n_params": 7920,
+ "epochs": 5000,
+ "kan_grid": 5,
+ "B": -1.5730014363625395e-09,
+ "E": 0.14570796125652413,
+ "E2": 0.14569488986850135,
+ "E4": 1.3071388022781395e-05,
+ "virial": 11146.091724503765,
+ "dE_grids": 0.0008414371796191533,
+ "B_dev": 1.5730014363625395e-09,
+ "E_over_B": 92630532.87062727,
+ "rel_err_vs_star": 93.81744593185034,
+ "fb_bound_ok": true,
+ "time_train_sec": 179.11380696296692,
+ "peak_mem_GiB": 0.8914828300476074,
+ "config": {
+  "epochs": 5000,
+  "lr": 0.002,
+  "w_topo": 1000.0,
+  "quad": [
+   32,
+   20,
+   24
+  ],
+  "quad_eval": [
+   48,
+   28,
+   36
+  ],
+  "r_max": 60.0,
+  "eval_chunk": 8192,
+  "kan_grid": 5,
+  "track": "free",
+  "B": 2,
+  "soft_scale": 3.0,
+  "init_gain": 1.0,
+  "log_every": 500,
+  "w_origin": 10.0,
+  "n_origin": 64,
+  "w_far": 50.0,
+  "n_far": 256,
+  "r_far_lo": 30.0,
+  "save_model": true
+ }
+}

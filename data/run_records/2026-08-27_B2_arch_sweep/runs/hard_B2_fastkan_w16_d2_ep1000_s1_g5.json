@@ -1,0 +1,46 @@
+{
+ "tag": "hard_B2_fastkan_w16_d2_ep1000_s1_g5",
+ "kind": "fastkan",
+ "width": 16,
+ "depth": 2,
+ "seed": 1,
+ "track": "hard",
+ "B_target": 2,
+ "n_params": 3382,
+ "epochs": 1000,
+ "kan_grid": 5,
+ "B": 1.999813336474654,
+ "E": 2.3764536725453054,
+ "E2": 1.1912240934810279,
+ "E4": 1.1852295790642773,
+ "virial": 1.0050576820918384,
+ "dE_grids": 2.8539068002153556e-05,
+ "B_dev": 0.00018666352534602026,
+ "E_over_B": 1.188337745929131,
+ "rel_err_vs_star": 0.8356248640211734,
+ "fb_bound_ok": true,
+ "time_train_sec": 31.621842622756958,
+ "peak_mem_GiB": 0.36443662643432617,
+ "config": {
+  "epochs": 1000,
+  "lr": 0.002,
+  "w_topo": 200.0,
+  "quad": [
+   32,
+   20,
+   24
+  ],
+  "quad_eval": [
+   48,
+   28,
+   36
+  ],
+  "r_max": 60.0,
+  "eval_chunk": 8192,
+  "kan_grid": 5,
+  "track": "hard",
+  "B": 2,
+  "soft_scale": 3.0,
+  "log_every": 100
+ }
+}

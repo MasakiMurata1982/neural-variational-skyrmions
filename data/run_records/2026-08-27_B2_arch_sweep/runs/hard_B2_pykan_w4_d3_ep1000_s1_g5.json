@@ -1,0 +1,46 @@
+{
+ "tag": "hard_B2_pykan_w4_d3_ep1000_s1_g5",
+ "kind": "pykan",
+ "width": 4,
+ "depth": 3,
+ "seed": 1,
+ "track": "hard",
+ "B_target": 2,
+ "n_params": 840,
+ "epochs": 1000,
+ "kan_grid": 5,
+ "B": 1.9999974946371621,
+ "E": 2.359450099839833,
+ "E2": 1.1802293293083082,
+ "E4": 1.179220770531525,
+ "virial": 1.0008552756209752,
+ "dE_grids": 2.2254281226707917e-05,
+ "B_dev": 2.5053628378568504e-06,
+ "E_over_B": 1.1797265277414173,
+ "rel_err_vs_star": 0.1141439875011944,
+ "fb_bound_ok": true,
+ "time_train_sec": 124.32704997062683,
+ "peak_mem_GiB": 0.3450326919555664,
+ "config": {
+  "epochs": 1000,
+  "lr": 0.002,
+  "w_topo": 200.0,
+  "quad": [
+   32,
+   20,
+   24
+  ],
+  "quad_eval": [
+   48,
+   28,
+   36
+  ],
+  "r_max": 60.0,
+  "eval_chunk": 8192,
+  "kan_grid": 5,
+  "track": "hard",
+  "B": 2,
+  "soft_scale": 3.0,
+  "log_every": 100
+ }
+}

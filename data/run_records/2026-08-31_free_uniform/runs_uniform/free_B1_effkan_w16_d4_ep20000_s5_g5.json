@@ -1,0 +1,74 @@
+{
+ "tag": "free_B1_effkan_w16_d4_ep20000_s5_g5",
+ "kind": "effkan",
+ "width": 16,
+ "depth": 4,
+ "seed": 5,
+ "track": "free",
+ "B_target": 1,
+ "n_params": 7920,
+ "epochs": 20000,
+ "kan_grid": 5,
+ "B": 1.0000024164178576,
+ "E": 1.231459912270155,
+ "E2": 0.6164262236134733,
+ "E4": 0.6150336886566818,
+ "virial": 1.002264160455719,
+ "dE_grids": 1.8196903006639786e-07,
+ "B_dev": 2.41641785758695e-06,
+ "E_over_B": 1.2314569365556227,
+ "rel_err_vs_star": 0.0008049267250088356,
+ "fb_bound_ok": true,
+ "time_train_sec": 684.1174347400665,
+ "peak_mem_GiB": 0.886932373046875,
+ "lumps": {
+  "centers": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "sep": [],
+  "pretrain_loss": 1.2281080898901564e-06
+ },
+ "config": {
+  "epochs": 20000,
+  "lr": 0.002,
+  "w_topo": 1000.0,
+  "quad": [
+   32,
+   20,
+   24
+  ],
+  "quad_eval": [
+   48,
+   28,
+   36
+  ],
+  "r_max": 60.0,
+  "eval_chunk": 8192,
+  "kan_grid": 5,
+  "track": "free",
+  "B": 1,
+  "soft_scale": 3.0,
+  "init_gain": 1.0,
+  "log_every": 10000,
+  "w_origin": 0.0,
+  "n_origin": 64,
+  "w_far": 50.0,
+  "n_far": 256,
+  "r_far_lo": 30.0,
+  "r_max_topo": null,
+  "n_lumps": 1,
+  "lump_spread": 1.5,
+  "lump_max_r": 2.5,
+  "pretrain_epochs": 8000,
+  "pretrain_lr": 0.001,
+  "ff_sigma": 1.0,
+  "ff_m": 32,
+  "mlp_act": "tanh",
+  "time_budget_sec": null,
+  "save_model": true
+ }
+}

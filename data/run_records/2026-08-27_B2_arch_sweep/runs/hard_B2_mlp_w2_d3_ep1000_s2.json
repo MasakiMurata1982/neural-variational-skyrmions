@@ -1,0 +1,46 @@
+{
+ "tag": "hard_B2_mlp_w2_d3_ep1000_s2",
+ "kind": "mlp",
+ "width": 2,
+ "depth": 3,
+ "seed": 2,
+ "track": "hard",
+ "B_target": 2,
+ "n_params": 32,
+ "epochs": 1000,
+ "kan_grid": 5,
+ "B": 1.9999996979457408,
+ "E": 2.4016496568737447,
+ "E2": 1.188979582657672,
+ "E4": 1.2126700742160725,
+ "virial": 0.980464190498215,
+ "dE_grids": 6.045576537161423e-07,
+ "B_dev": 3.020542591603004e-07,
+ "E_over_B": 1.2008250097940267,
+ "rel_err_vs_star": 1.9047190581028484,
+ "fb_bound_ok": true,
+ "time_train_sec": 21.915502786636353,
+ "peak_mem_GiB": 0.0762019157409668,
+ "config": {
+  "epochs": 1000,
+  "lr": 0.002,
+  "w_topo": 200.0,
+  "quad": [
+   32,
+   20,
+   24
+  ],
+  "quad_eval": [
+   48,
+   28,
+   36
+  ],
+  "r_max": 60.0,
+  "eval_chunk": 8192,
+  "kan_grid": 5,
+  "track": "hard",
+  "B": 2,
+  "soft_scale": 3.0,
+  "log_every": 100
+ }
+}

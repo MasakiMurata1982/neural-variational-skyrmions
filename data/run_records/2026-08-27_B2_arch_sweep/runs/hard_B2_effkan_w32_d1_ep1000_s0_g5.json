@@ -1,0 +1,46 @@
+{
+ "tag": "hard_B2_effkan_w32_d1_ep1000_s0_g5",
+ "kind": "effkan",
+ "width": 32,
+ "depth": 1,
+ "seed": 0,
+ "track": "hard",
+ "B_target": 2,
+ "n_params": 2016,
+ "epochs": 1000,
+ "kan_grid": 5,
+ "B": 1.9999954230636774,
+ "E": 2.3582084402199195,
+ "E2": 1.1797067891184068,
+ "E4": 1.178501651101513,
+ "virial": 1.0010226018909412,
+ "dE_grids": 1.4013758462105841e-05,
+ "B_dev": 4.5769363226089155e-06,
+ "E_over_B": 1.1791069184586014,
+ "rel_err_vs_star": 0.061458961452142864,
+ "fb_bound_ok": true,
+ "time_train_sec": 31.551580667495728,
+ "peak_mem_GiB": 0.5646166801452637,
+ "config": {
+  "epochs": 1000,
+  "lr": 0.002,
+  "w_topo": 200.0,
+  "quad": [
+   32,
+   20,
+   24
+  ],
+  "quad_eval": [
+   48,
+   28,
+   36
+  ],
+  "r_max": 60.0,
+  "eval_chunk": 8192,
+  "kan_grid": 5,
+  "track": "hard",
+  "B": 2,
+  "soft_scale": 3.0,
+  "log_every": 100
+ }
+}
