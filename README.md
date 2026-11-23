@@ -5,7 +5,7 @@ Companion archive to
 > K. Hashimoto, M. Murata and G. Ogiwara,
 > *Neural variational Skyrmions as a topological benchmark: emergent
 > symmetry, precision energies and KAN–MLP comparison*,
-> preprint (2026).
+> arXiv:2611.27411 [hep-th] (2026), https://arxiv.org/abs/2611.27411.
 
 This archive holds the source code, the configuration files and the records
 of every run the paper reports, including every failed run.

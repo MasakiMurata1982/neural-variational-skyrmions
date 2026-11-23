@@ -5,7 +5,7 @@
 > K. Hashimoto, M. Murata and G. Ogiwara,
 > *Neural variational Skyrmions as a topological benchmark: emergent
 > symmetry, precision energies and KAN–MLP comparison*,
-> プレプリント（2026）
+> arXiv:2611.27411 [hep-th]（2026）、https://arxiv.org/abs/2611.27411
 
 に付属する配布物です。ソースコード、設定ファイル、
 論文が報告する全 run の記録（失敗した run を含む）が入っています。
